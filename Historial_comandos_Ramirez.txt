@@ -1,0 +1,120 @@
+ssh-keygen
+cd
+pwd
+ls -la
+cs .ssh
+cd .ssh
+ls -la
+cat id_rsa.pub
+cd
+ls -la
+pwd
+sudo apt install git
+git --version
+git clone git@github.com:ramirezpablo137/TP_AySO.git
+pwd
+ls -la
+cp README TP_AySO
+cd TP_AySO
+ls -la
+git status
+cd
+pwd
+cd repogit
+git clone git@github.com:ramirezpablo137/TP_AySO.git
+ls -la
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+grep
+grep -i Home_url /etc/os-release
+grep <parámetro> Home_url /etc/os-release >
+datos_url.txt 
+grep -i Home_url /etc/os-release > datos_url.txt 
+ls -l
+whoami 
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+ls -l
+git add.
+git add .
+git status
+git config --global user.email ramirezok123@gmail.com 
+git config --global user.name ramirezpablo137
+git commit -m "ADD: Agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "ADD: Añadiendo informacion de CPU"
+cat
+cdrpreeooiiiiiiiitiit
+cd ~/repogit/TP_AySO
+cat <<EOF >> README.md
+Alumno: Pablo Ramirez
+División: 116
+Turno: mañana
+EOF
+
+git add README.md
+git commit -m "add: Añadiendo información del alumno al README.md"
+git status
+cat README.md
+git push
+cd
+pwd
+mkdir -p materia{1,2}/uni{1,2,3}
+tree materia
+sudo dnf install tree
+sudo apt install tree
+tree materia
+sudo snap install tree
+tree materia
+tree materia/
+mkdir -p materia{1,2}/uni{1,2,3}
+tree materia
+pwd
+tree materia1
+tree materia2
+ls -l
+/etc/passwd.
+sudo usermod -s /bin/bash ramirezpablo137
+sudo usermod -s /bin/bash vagrant
+#!/bin/bash script_dir.sh
+ls -l
+cd repogit
+ls -l
+cd
+cd snap
+ls -l
+cd
+pwd
+#!/bin/bash
+sudo chmod  script_dir.sh
+sudo chmod 777 script_dir.sh
+echo '#!/bin/bash' > script_dir.sh
+echo 'mkdir -p materia{1,2}/uni{1,2,3}' >> script_dir.sh
+sudo chmod script_dir.sh
+chmod --help
+chmod 755 script_dir.sh
+ls -l script_dir.sh
+pwd
+git add .
+ls -l
+cd repogit
+ls -l
+cd TP_AySO/
+ls -l
+git status
+git add .
+git commit -m "ADD: Añadiendo script
+git commit -m "ADD: Añadiendo script"
+git commit -m "ADD: Añadiendo script"
+git remote -v
+git push
+mv ~/script_dir.sh ~/repogit/TP_AySO/
+ls -l
+git add .
+git commit -m "ADD: Añadiendo archivos iniciales"
+git push
+history -a
