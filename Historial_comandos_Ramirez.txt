@@ -29,7 +29,7 @@ ls -l
 cat /etc/os-release
 grep
 grep -i Home_url /etc/os-release
-grep <parámetro> Home_url /etc/os-release >
+grep -i Home_url /etc/os-release >
 datos_url.txt 
 grep -i Home_url /etc/os-release > datos_url.txt 
 ls -l
