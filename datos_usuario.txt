@@ -1,1 +1,2 @@
 “Usuario=vagrant”
+model name	: 11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz
